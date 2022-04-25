@@ -1,0 +1,20 @@
+[
+  {
+      "className": "OverfluxOrb",
+      "name": "Overflux Orb",
+      "description": "He who controls the orb, controls the world.",
+      "food": 0,
+      "wood": 0,
+      "stone": 0,
+      "machineParts": 0,
+      "refinedMetal": 0,
+      "computerChips": 0,
+      "knowledge": 0,
+      "category": "Unique Buildings",
+      "unlockedByDefault": false,
+      "notUnlockedWithAll": true,
+      "specialInfo": [
+          "unique"
+      ]
+  }
+]

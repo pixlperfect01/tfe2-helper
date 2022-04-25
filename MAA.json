@@ -1,0 +1,76 @@
+{
+    "goals": [
+        {
+            "name": "MAA_Startb",
+            "title": "",
+            "text": "The year is 8457, a massive solar flare has disrupted the electronics of the islands and there is no more power.",
+            "quickText": "",
+            "nextGoal": "MAA_Startc",
+            "subGoals": [],
+            "planning": []
+        },
+        {
+            "name": "MAA_Startc",
+            "title": "",
+            "text": "The year is 8457, a massive solar flare has disrupted the electronics of the islands and there is no more power.",
+            "quickText": "",
+            "nextGoal": "MAA_Start_1",
+            "subGoals": [],
+            "planning": []
+        },
+        {
+            "name": "MAA_Start_1",
+            "title": "",
+            "text": "Your citizens have been forced to resort to more... magical means of production",
+            "quickText": "",
+            "nextGoal": "MAA_Start_2",
+            "subGoals": [],
+            "planning": []
+        },
+        {
+            "name": "MAA_Start_2",
+            "title": "",
+            "text": "Your current goal is to find what is causing the series of solar flares in order to identify the source.",
+            "quickText": "Find the source of the solar flares",
+            "nextGoal": "",
+            "subGoals": [
+                {
+                    "type": "ClickBuilding",
+                    "permanentToClickClass": "OverfluxOrb"
+                }
+            ],
+            "planning": []
+        }
+    ],
+    "startGoal": "MAA_Startb",
+    "lockPermanents": [],
+    "worlds": [
+        {
+            "rect": {
+                "x": 0,
+                "y": 160,
+                "width": 1000,
+                "height": 80
+            },
+            "seed": 2000,
+            "worldResources": [
+            ],
+            "buildingStacks": [
+                { "position": 2, "classNames": ["OverfluxOrb"] }
+            ],
+            "citizens": [
+                { "amount": 3, "ageRangeMin": 20, "ageRangeMax": 25, "minX": 60, "maxX": 80 }
+            ]
+        }
+    ],
+    "initialMaterials": {
+        "food": 100,
+        "stone": 20,
+        "wood": 20,
+        "knowledge": 10,
+        "machineParts": 0,
+        "refinedMetal": 0,
+        "computerChips": 0
+    },
+    "viewYFromBottom": 270
+}
